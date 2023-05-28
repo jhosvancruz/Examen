@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WsApiexamen", "WsApiexamen\", "{576579DE-1A8E-43E4-A0DD-B0D980F9AAE0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50141"
+		Debug.AspNetCompiler.PhysicalPath = "WsApiexamen\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50141\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50141"
+		Release.AspNetCompiler.PhysicalPath = "WsApiexamen\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50141\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50141"
+		SlnRelativePath = "WsApiexamen\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiexamen", "apiexamen\apiexamen.csproj", "{4365FF8B-C3E9-4F9C-BE11-C4116DCA20CA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{576579DE-1A8E-43E4-A0DD-B0D980F9AAE0} = {576579DE-1A8E-43E4-A0DD-B0D980F9AAE0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainInterface", "MainInterface\MainInterface.csproj", "{A836517F-030C-42E1-95C1-BCF4C010602E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{576579DE-1A8E-43E4-A0DD-B0D980F9AAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576579DE-1A8E-43E4-A0DD-B0D980F9AAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576579DE-1A8E-43E4-A0DD-B0D980F9AAE0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{576579DE-1A8E-43E4-A0DD-B0D980F9AAE0}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4365FF8B-C3E9-4F9C-BE11-C4116DCA20CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4365FF8B-C3E9-4F9C-BE11-C4116DCA20CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4365FF8B-C3E9-4F9C-BE11-C4116DCA20CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4365FF8B-C3E9-4F9C-BE11-C4116DCA20CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A836517F-030C-42E1-95C1-BCF4C010602E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A836517F-030C-42E1-95C1-BCF4C010602E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A836517F-030C-42E1-95C1-BCF4C010602E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A836517F-030C-42E1-95C1-BCF4C010602E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FE310DD-0026-4B3B-AD17-A983C7C59431}
+	EndGlobalSection
+EndGlobal
